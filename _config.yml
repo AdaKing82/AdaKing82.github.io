@@ -11,7 +11,7 @@ github_repo: "https://github.com/AdaKing82/AdaKing82.github.io.git" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "The greatest grief in life is to live up to youth."
 sidebar-avatar: /img/AdaKingPortrait.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
