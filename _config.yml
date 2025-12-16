@@ -64,7 +64,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: Ov23liPmJr9Ey1C3dhed                           #生成的clientID
   clientSecret: ea253b24069e4e73b95893df37f1d336f976129a    #生成的clientSecret
-  repo: blog-comment    #仓库名称
+  repo: https://github.com/AdaKing82/blog-comments    #仓库名称
   owner: AdaKing82    #github用户名
   admin: AdaKing82
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
