@@ -1,7 +1,7 @@
 {
-  "name": "BY Blog",
-  "short_name": "BY Blog",
-  "description": "A personal blog by engineer",
+  "name": "Ada King for JVM",
+  "short_name": "Ada King for JVM",
+  "description": "Dedicate to share knowledge about JVM internal mechanism, programming languages and software development.",
   "icons": [{
     "src": "icons/pwa_icon_128.png",
     "sizes": "128x128",
