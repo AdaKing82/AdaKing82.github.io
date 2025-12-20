@@ -69,7 +69,7 @@ However, there are some intrinsic defects, such as the low efficiency, reading a
 
 For accelerating the computing procedures, a register, which residents in the CPU, can be used to always keep the value of top element of the stack. The process is below.
 
-![](./images/evolution.png)
+![](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2025-12-16/evolution.png)
 
 As the register is internally located in CPU, the accessing speed is faster than the R/W from memory.
 
