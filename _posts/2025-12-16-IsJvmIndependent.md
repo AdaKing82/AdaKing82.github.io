@@ -15,8 +15,7 @@ tags:
 
 Actually, the computer is a device that implements the Turing model, which contains input parameters, a gadget that computes accroding to some rule, and the output result. 
 
-![](https://cdn.jsdelivr.net/gh/adaking82/adaking82/images/2025-12-16/turing.jpg)
-![](.\images\turning.jpg)
+![](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2025-12-16/turning.jpg)
 
 Tape is used for inputing the data, program is the instructions that applies to compute the data, the cubes horizontal arranging is the current status of the machine.
 
@@ -38,7 +37,7 @@ If we design a computer, there is a CPU with summing unit inside it, how to impl
 - A CPU
 - Three instructions: add, read memory, write memory
 
-![image-20251220130122098](./images/concept_computer_eng.png)
+![image-20251220130122098](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2025-12-16/concept_computer_eng.png)
 
 How to implement the addtion program above? Maybe we can adopt the procedure below
 
@@ -50,7 +49,7 @@ How to implement the addtion program above? Maybe we can adopt the procedure bel
 
 执行加法： execute the adding instruction
 
-![](./images/stack_computer_adding.png)
+![](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2025-12-16/stack_computer_adding.png)
 
 Step 1: put a into the memory
 
@@ -86,7 +85,7 @@ Following the development of the technology, the number of registers, which can 
 
 As a result, the form of CPU is developed to the form below.
 
-![image-20251220132422231](./images/von_eng.png)
+![image-20251220132422231](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2025-12-16/von_eng.png)
 
 ## The architecture types
 
@@ -145,17 +144,17 @@ The <font color="brown">orange part</font> is related to platform-independent.
 
 The <font color="green">green part</font> is linked to platform-dependent.
 
-![JVM_Arch](.\images\JVM_Arch.png)
+![JVM_Arch](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2025-12-16/VM_Arch.png)
 
 In essence, for the software aspect, all the Java programs are executed by a custom stack computer, yet, the actual computation on a stack-based machine is ultimately executed through platform's native instructions.
 
 That is the reason why there are many different folders with architectural name in the source code.
 
-![1744879997625](./images/cpus.png)
+![1744879997625](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2025-12-16/cpus.png)
 
 Moreover, to implment "**once compiled, executed any where**", the JVM provides some distinct variables and functions accoriding to the operating system(OS), even with its CPU characteristics.
 
-![1744880101657](./images/os_cpus.png)
+![1744880101657](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2025-12-16/os_cpus.png)
 
 ## Summary
 
