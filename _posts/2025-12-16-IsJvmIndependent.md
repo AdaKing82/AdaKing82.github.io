@@ -81,7 +81,6 @@ Following the development of the technology, the number of registers, which can 
 | 1    | rcx   |
 | 2    | rdx   |
 
-于是，CPU发展出下面的形式。
 
 As a result, the form of CPU is developed to the form below.
 
@@ -97,7 +96,6 @@ ADD EAX, EBX
 
 This instruction is to calculate the addition of the values in the `EAX` and `EBX`, and put the result to `EBX`
 
-而典型的ARM架构（RISC指令集）实现加法则为
 
 Comparing to expression above, the classic ARM instruction (one of the RISC instructions) implements the addition is below.
 
