@@ -15,6 +15,7 @@ tags:
 
 Actually, the computer is a device that implements the Turing model, which contains input parameters, a gadget that computes accroding to some rule, and the output result. 
 
+![](https://cdn.jsdelivr.net/gh/adaking82/adaking82/images/2025-12-16/turing.jpg)
 ![](.\images\turning.jpg)
 
 Tape is used for inputing the data, program is the instructions that applies to compute the data, the cubes horizontal arranging is the current status of the machine.
