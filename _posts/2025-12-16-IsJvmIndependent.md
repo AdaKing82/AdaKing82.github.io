@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Is JVM platform independent or dependent?
-subtitle:   Maybe we are all misleaded by some java book
+subtitle:   Maybe we are all misleaded by some java books
 date:       2025-12-16
 author:     Brother King
 header-img: img/post-bg-rwd.jpg
