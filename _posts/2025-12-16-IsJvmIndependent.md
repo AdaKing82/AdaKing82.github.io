@@ -142,7 +142,7 @@ The <font color="brown">orange part</font> is related to platform-independent.
 
 The <font color="green">green part</font> is linked to platform-dependent.
 
-![JVM_Arch](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2025-12-16/VM_Arch.png)
+![JVM_Arch](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2025-12-16/JVM_Arch.png)
 
 In essence, for the software aspect, all the Java programs are executed by a custom stack computer, yet, the actual computation on a stack-based machine is ultimately executed through platform's native instructions.
 
