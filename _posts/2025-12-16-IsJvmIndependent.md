@@ -150,7 +150,7 @@ That is the reason why there are many different folders with architectural name 
 
 ![1744879997625](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2025-12-16/cpus.png)
 
-Moreover, to implment "**once compiled, executed any where**", the JVM provides some distinct variables and functions accoriding to the operating system(OS), even with its CPU characteristics.
+Moreover, to implment "**once compiled, executed any where**", the JVM provides some distinct variables and functions accoriding to the operating systems(OS), even with their CPU characteristics.
 
 ![1744880101657](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2025-12-16/os_cpus.png)
 
