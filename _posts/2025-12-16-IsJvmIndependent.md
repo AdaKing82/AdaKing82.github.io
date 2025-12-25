@@ -136,7 +136,7 @@ What we know about the platform independence from Java refers to the content of 
 
 ### Reason
 
-Java virtual machine (JVM) firstly reads the .class files at beginning, and then translate them and loads the content to various parts to run. Now, why the JVM is called virtual machine? Because the internal mechanism of the JVM is a software implmented computer by a stack calculating form. the computer is called **hotspot**, which is almost written by C++. A shell written in Java(JDK) is wrapped around hotspot, providing a great number of interfaces to developers to call. 
+Java virtual machine (JVM) firstly reads the .class files at beginning, and then translates them and loads the content to various parts to run. Now, why the JVM is called virtual machine? Because the internal mechanism of the JVM is a software implmented computer by a stack calculating form. the computer is called **hotspot**, which is almost written by C++. A shell written in Java(JDK) is wrapped around hotspot, providing a great number of interfaces to developers to call. 
 
 The <font color="brown">orange part</font> is related to platform-independent.
 
