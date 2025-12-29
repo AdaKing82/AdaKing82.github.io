@@ -9,7 +9,6 @@ catalog: true
 tags:
     - JVM
 ---
-
 # The memory layout of locals and stacks in JVM
 
 ## Locals and Stacks
