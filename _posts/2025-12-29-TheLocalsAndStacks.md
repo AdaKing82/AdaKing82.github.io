@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      The memory layout of locals and stacks in JVM
+subtitle:   Explanation of local variables and stacks
+date:       2025-12-29
+author:     Brother King
+header-img: img/post-bg-rwd.jpg
+catalog: true
+tags:
+    - JVM
+---
+
 # The memory layout of locals and stacks in JVM
 
 ## Locals and Stacks
