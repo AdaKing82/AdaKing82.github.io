@@ -125,7 +125,7 @@ At last, you can see the result of the calculation at final step in stacks, whic
 
 In `openjdk`, the `rlocals` is arranged at the top of interpreter stack, and the operand stacks position is under the the interpreter stack.
 
-![image-20251229111655030](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/locals_stacks_real_layout_eng.png)
+![image-20251229111655030](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2025-12-29/locals_stacks_real_layout_eng.png)
 
 If the procedure needs the second parameter, what the JVM has to do is getting the value from an address with specific offset by `rlocals` pointing to.
 
