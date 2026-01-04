@@ -28,7 +28,7 @@ For instance, the pushing instruction previously described is below.
 ```assembly
 push %rbx
 ```
-If the codes, `push %rbx`, is written to the .s file and compiled by compiler, like gcc, the corresponding  object file will be generated, and the position, which stands for `push %rbx`, will be replaced by the number `0x53`, which is the hex-decimal form of `01010011
+If the codes, `push %rbx`, is written to the .s file and compiled by compiler, like gcc, the corresponding  object file will be generated, and the position, which stands for `push %rbx`, will be replaced by the number `0x53`, which is the hex-decimal form of `01010011`
 
 If the CPU gets the `0x53`, it will definitely push the value of rbx to the stack.
 
@@ -44,7 +44,7 @@ According to the manual of x64, the `push %rbx` coding rule is below.
 
 ![alt text](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2026-1-4/push.png)
 
-`push` represents `0x50
+`push` represents `0x50`
 
 `reg64` is replaced by `%rbx`, and the number of register rbx is encoding 3. Therefore, the result of `0x50 + 0x3` is `0x53`.
 
@@ -85,7 +85,7 @@ the encoding rule from `AArch64` manual is below.
 
 ![](https://cdn.jsdelivr.net/gh/adaking82/AdaKing82.github.io/images/2026-1-4/add_aarch64_encoding.png)
 
-Accoriding to the manual, if the instruction is run on the 64-bit platform, like Apple M2, the 31st is 1, Rm is x2, Rn is x1, which means the value at these positions are 2, 1 and 0. Other bits value is set by the rule, imm6 is used for another operation, which is defaultly assigned 0.
+Accoriding to the manual, if the instruction is run on the 64-bit platform, like Apple M2, the 31st is 1, Rm is x2, Rn is x1, which means the value at these positions are 2, 1 and 0. Other bits value is set by the rule, `imm6` is used for another operation, which is defaultly assigned 0.
 
 Therefore, the machin code is below
 ```
